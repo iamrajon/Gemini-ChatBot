@@ -1,0 +1,13 @@
+<nav class="navbar border-bottom border-secondary" style="background-color:#B5B5B5">
+    <div class="container-fluid d-flex justify-content-between">
+      <a class="navbar-brand p-1 fw-900 px-3">Custom chat-Bot</a>
+      {% comment %} <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> {% endcomment %}
+      <div class="buttons d-inline px-3">
+        <a href="{% url "gemini-text" %}" class="btn btn-outline-success border-success fw-bold px-2 me-2">Text</a>
+        <a href="{% url "gemini-image" %}" class="btn btn-outline-success border-secondary fw-bold px-2">Image</a>
+      </div>
+    </div>
+  </nav>

@@ -1,0 +1,4 @@
+
+# ignoring .env and geminienv(virtualenv)
+.env
+/geminienv/
